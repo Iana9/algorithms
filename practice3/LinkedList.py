@@ -8,7 +8,6 @@ class Node:
         self.value = value
         self.prev: Node | None = None
         self.next: Node | None = None
-        # Флаг «узел ещё в списке». В _remove_node нужно будет поставить False.
         self._valid = True
 
 
